@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Motion_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="War Mike" translatesAutoresizingMaskIntoConstraints="NO" id="0ZS-hx-EpI">
+                                <rect key="frame" x="164" y="409" width="87" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mike is mad he didn't go to WWDC Help him destroy EVERYTHING!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNT-2X-2jP">
+                                <rect key="frame" x="15" y="103" width="384" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="House" translatesAutoresizingMaskIntoConstraints="NO" id="IeM-qd-M1u">
+                                <rect key="frame" x="15" y="168" width="83" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mike" translatesAutoresizingMaskIntoConstraints="NO" id="iet-eU-9oS">
+                                <rect key="frame" x="260" y="173" width="96" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mountain01" translatesAutoresizingMaskIntoConstraints="NO" id="4C5-le-GY1">
+                                <rect key="frame" x="37" y="596" width="126" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mountain02" translatesAutoresizingMaskIntoConstraints="NO" id="Zj9-CH-NI5">
+                                <rect key="frame" x="306" y="610" width="77" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="earth" translatesAutoresizingMaskIntoConstraints="NO" id="2nq-8U-JqX">
+                                <rect key="frame" x="101" y="765" width="94" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="School" translatesAutoresizingMaskIntoConstraints="NO" id="h74-fp-Ixp">
+                                <rect key="frame" x="126" y="177" width="98" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEu-Tu-gEX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="War Mike" id="qte-eU-gg7"/>
+                                </items>
+                            </navigationBar>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O PRÓXIMO É VOCÊ!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfb-ZE-fg5">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bck-QL-JOD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="statusBar" translatesAutoresizingMaskIntoConstraints="NO" id="YvY-0h-3ja">
+                                        <rect key="frame" x="316" y="16" width="84" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:41" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rua-g6-f9b">
+                                        <rect key="frame" x="35" y="14" width="45" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="oAt-Be-V2a"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Rua-g6-f9b" secondAttribute="bottom" constant="2" id="34L-pV-Xh5"/>
+                                    <constraint firstItem="Rua-g6-f9b" firstAttribute="leading" secondItem="Bck-QL-JOD" secondAttribute="leading" constant="35" id="QYl-Kw-Ds6"/>
+                                    <constraint firstItem="Rua-g6-f9b" firstAttribute="top" secondItem="Bck-QL-JOD" secondAttribute="top" constant="14" id="dQm-yj-kYR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pEu-Tu-gEX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="185-tM-XaZ"/>
+                            <constraint firstItem="vNT-2X-2jP" firstAttribute="top" secondItem="pEu-Tu-gEX" secondAttribute="bottom" constant="15" id="72X-iE-e99"/>
+                            <constraint firstItem="dfb-ZE-fg5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="8tI-W1-hlA"/>
+                            <constraint firstAttribute="trailing" secondItem="Bck-QL-JOD" secondAttribute="trailing" id="BFb-rh-ZLA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vNT-2X-2jP" secondAttribute="trailing" constant="15" id="EwG-fH-vKw"/>
+                            <constraint firstItem="Bck-QL-JOD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HPB-oK-R90"/>
+                            <constraint firstItem="pEu-Tu-gEX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IOe-tJ-jST"/>
+                            <constraint firstItem="pEu-Tu-gEX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IbG-Ha-N3J"/>
+                            <constraint firstItem="Bck-QL-JOD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Lyo-AV-c8c"/>
+                            <constraint firstItem="dfb-ZE-fg5" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="hPj-Ai-ZmU"/>
+                            <constraint firstItem="vNT-2X-2jP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="lig-FO-nqp"/>
+                            <constraint firstItem="dfb-ZE-fg5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mUc-R3-mqe"/>
+                            <constraint firstItem="dfb-ZE-fg5" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mgm-S2-s6e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblEnd" destination="dfb-ZE-fg5" id="dtj-PR-IhG"/>
+                        <outlet property="lblHorario" destination="Rua-g6-f9b" id="Gdd-N7-Kdb"/>
+                        <outlet property="warMike" destination="0ZS-hx-EpI" id="HRK-al-Uym"/>
+                        <outletCollection property="Collidables" destination="0ZS-hx-EpI" collectionClass="NSMutableArray" id="8de-H1-I2H"/>
+                        <outletCollection property="Collidables" destination="IeM-qd-M1u" collectionClass="NSMutableArray" id="pgp-sD-cyY"/>
+                        <outletCollection property="Collidables" destination="iet-eU-9oS" collectionClass="NSMutableArray" id="shb-WH-FeH"/>
+                        <outletCollection property="Collidables" destination="4C5-le-GY1" collectionClass="NSMutableArray" id="VOJ-Hg-GIM"/>
+                        <outletCollection property="Collidables" destination="Zj9-CH-NI5" collectionClass="NSMutableArray" id="jhP-eS-asA"/>
+                        <outletCollection property="Collidables" destination="2nq-8U-JqX" collectionClass="NSMutableArray" id="pd2-rE-dbi"/>
+                        <outletCollection property="Collidables" destination="h74-fp-Ixp" collectionClass="NSMutableArray" id="zcL-Xf-909"/>
+                        <outletCollection property="Collidables" destination="vNT-2X-2jP" collectionClass="NSMutableArray" id="Gb4-YP-rvW"/>
+                        <outletCollection property="Collidables" destination="pEu-Tu-gEX" collectionClass="NSMutableArray" id="chb-rf-zan"/>
+                        <outletCollection property="Collidables" destination="Bck-QL-JOD" collectionClass="NSMutableArray" id="6kg-oL-JO4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="House" width="327" height="370"/>
+        <image name="Mike" width="617" height="617"/>
+        <image name="Mountain01" width="1863" height="1901"/>
+        <image name="Mountain02" width="1851" height="3588"/>
+        <image name="School" width="430" height="277"/>
+        <image name="War Mike" width="400" height="360"/>
+        <image name="earth" width="1033" height="966"/>
+        <image name="statusBar" width="71" height="16"/>
+    </resources>
+</document>

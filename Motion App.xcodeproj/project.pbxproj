@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021059C622B80C48009C99E3 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021059C522B80C48009C99E3 /* MotionManager.swift */; };
+		021059CC22B80E1B009C99E3 /* MotionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021059CB22B80E1B009C99E3 /* MotionHandler.swift */; };
 		02FB666522B8040000DC3AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB666422B8040000DC3AE5 /* AppDelegate.swift */; };
 		02FB666722B8040000DC3AE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB666622B8040000DC3AE5 /* ViewController.swift */; };
 		02FB666A22B8040000DC3AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FB666822B8040000DC3AE5 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		021059C522B80C48009C99E3 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		021059CB22B80E1B009C99E3 /* MotionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionHandler.swift; sourceTree = "<group>"; };
 		02FB666122B8040000DC3AE5 /* Motion App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FB666422B8040000DC3AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02FB666622B8040000DC3AE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021059C722B80C4C009C99E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02FB666D22B8040100DC3AE5 /* LaunchScreen.storyboard */,
+				02FB666822B8040000DC3AE5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		021059C922B80C5E009C99E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02FB666622B8040000DC3AE5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		021059CA22B80C6C009C99E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				021059C522B80C48009C99E3 /* MotionManager.swift */,
+				021059CB22B80E1B009C99E3 /* MotionHandler.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		02FB665822B8040000DC3AE5 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +84,11 @@
 		02FB666322B8040000DC3AE5 /* Motion App */ = {
 			isa = PBXGroup;
 			children = (
+				021059CA22B80C6C009C99E3 /* Helpers */,
+				021059C922B80C5E009C99E3 /* Controller */,
+				021059C722B80C4C009C99E3 /* View */,
 				02FB666422B8040000DC3AE5 /* AppDelegate.swift */,
-				02FB666622B8040000DC3AE5 /* ViewController.swift */,
-				02FB666822B8040000DC3AE5 /* Main.storyboard */,
 				02FB666B22B8040100DC3AE5 /* Assets.xcassets */,
-				02FB666D22B8040100DC3AE5 /* LaunchScreen.storyboard */,
 				02FB667022B8040100DC3AE5 /* Info.plist */,
 			);
 			path = "Motion App";
@@ -135,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021059C622B80C48009C99E3 /* MotionManager.swift in Sources */,
 				02FB666722B8040000DC3AE5 /* ViewController.swift in Sources */,
+				021059CC22B80E1B009C99E3 /* MotionHandler.swift in Sources */,
 				02FB666522B8040000DC3AE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
